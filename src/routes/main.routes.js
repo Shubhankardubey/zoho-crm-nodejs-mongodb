@@ -42,7 +42,6 @@ crm.getRecords('Leads', {"fromIndex":initial, "toIndex":final }, function (err, 
         if (err) {
           throw err;
         }
-        console.log('done')
       }))
     })
   });
